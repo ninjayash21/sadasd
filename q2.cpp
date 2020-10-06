@@ -1,8 +1,10 @@
 #include <bits/stdc++.h>
  #include <iostream>
 using namespace std; 
+
  static int flag; 
-void swap(int *xp, int *yp)  
+
+void swap(int *xp, int *yp)  //*xp and *yp are input as references
 {  
     int temp = *xp;  
     *xp = *yp;  
@@ -49,6 +51,7 @@ int main()
 		 
 	}
    
+	
     return 0;  
 }  
 
